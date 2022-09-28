@@ -1,0 +1,116 @@
+.display-4 .mbr-iconfont-btn{
+    font-size: 1rem;
+    width: 1rem;
+}
+.btn .mbr-iconfont, .btn.btn-md .mbr-iconfont{
+    cursor: pointer;
+    margin: 0 0.8rem 0 0;
+}
+.navbar-fixed-bottom{
+    bottom: 0;
+    position: fixed;
+}
+.navbar1{
+    background: none;
+    z-index: 100;
+    width: 100%;
+}
+div .mbr-section{
+    padding: 30px 0;
+}
+display-4{
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+.mbr-row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mbr-jc-c{
+    justify-content: center;
+}
+.mbr-row .btn{
+    padding: 1rem 2rem;
+}
+.mbr-row .btn{
+    font-family: Roboto Condensed;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 400;
+    margin: 0.4rem 0.5rem;
+    border: 2px solid;
+    font-style: normal;
+    white-space: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.mbr-section-btn{
+    margin: 0 -0.25rem;
+    font-size: 0;
+}
+
+.btn-secondary-outline1.fab,.btn-secondary-outline1.fab:active,.btn-secondary-outline1.fab.active{
+    background: rgba(0,0,0,0.7)
+    ;border-color: #fff;
+    color: #fff;
+    border-radius:2.3rem;
+    box-shadow:0 3px 5px -1px rgba(0,0,0,.2),
+    0 6px 10px 0 rgba(0,0,0,.14),
+    0 1px 18px 0 rgba(0,0,0,.12)
+    
+}
+.btn-secondary-outline1.fab:hover,.btn-secondary-outline1.fab:focus,.btn-secondary-outline1.fab.focus{
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    
+}
+.btn-secondary-outline1.fab.disabled,.btn-secondary-outline1.fab:disabled{
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    
+}
+.btn-success-outline1.fab,.btn-success-outline1.fab:active,.btn-success-outline1.fab.active{
+    background:rgba(37, 211, 102,0.8) ;border-color: #fff;color: #fff;
+    border-radius: 2.3rem;
+    box-shadow:0 3px 5px -1px rgba(0,0,0,.2),
+    0 6px 10px 0 rgba(0,0,0,.14),
+    0 1px 18px 0 rgba(0,0,0,.12)
+    
+}
+.btn-success-outline1.fab:hover,.btn-success-outline1.fab:focus,.btn-success-outline1.fab.focus{
+    color: #ffffff;
+    background-color: #25d366;
+    border-color: #25d366;
+    
+}
+.btn-success-outline1.fab.disabled,.btn-success-outline1.fab:disabled{
+    color: #ffffff;
+    background-color: #25d366;
+    border-color: #25d366;
+    
+}
+@media (max-width: 768px){ 
+    .display-4{
+        font-size: 0.8rem;
+        font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+        
+    }
+}
+.mbr-section .container{
+    padding: 0 1rem ;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.elementor-widget-container{
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
